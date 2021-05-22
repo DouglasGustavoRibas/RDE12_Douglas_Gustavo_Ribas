@@ -1,0 +1,98 @@
+div{
+    background-color:rgb(171, 195, 196);
+    margin:10px;
+    
+}
+span{
+    font-weight:bold;
+
+}
+h1#principal{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color:rgb(83, 58, 109);
+    background-color:rgb(29, 195, 196);
+    border: 2px solid rgb(83, 58, 109)
+}
+
+div.agrupamento{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgba(39, 7, 70);
+    background-color:rgb(29, 9, 46, 0.616);
+    border: 2px solid gray;
+    margin:20px;
+    padding:10px;
+
+}
+.exemplo1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgb(146, 175, 119);
+    border: 1px solid rgb(132, 166, 23);
+    margin: 10px;
+    padding: 10px;
+    width: 80px;
+    height: 30px;
+}
+
+.exemplo2{
+    font-family:'Courier New', Courier, monospace;
+    background-color:rgb(208, 211, 8);
+    border: 1px solid orange;
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+.personalizado
+{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:rgba(216, 197, 233, 0.616);
+    border: 2px solid gray;
+    margin: 10px;
+    padding: 10px;
+    j
+
+}
+
+.personalizado:hover{
+
+    color:rgb(29, 7, 70);
+    background-color:rgba(29, 9, 48, 0.616);
+    margin:30px;
+    padding:20px;
+
+}
+
+.pseudo > span{
+    display: none;
+}
+
+.pseudo:hover > span{
+    display:block;
+    background-color:dark;
+}
+
+h3::selection{
+    color:red;
+    background: yellow;
+}
+
+.d::first-letter{
+    color:red;
+    font-size:xx-large;
+}
+
+.H:hover{
+    background-color:yellow;
+
+}
+.A:active {
+    background-color: rgb(125, 187, 187);
+}
+
+.V::first-letter {
+    color: rgb(190, 133, 25);
+    background-color:blueviolet;
+  }
+
